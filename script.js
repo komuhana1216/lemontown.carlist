@@ -12,7 +12,7 @@ const vehicles = [
 {name:"PD フロガー",id:"dlfroggerpd",type:"helicopter",job:"Police",image:"police/pdfroger.png"},
 {name:"PD 150JYZS22",id:"PD150JYZS22",type:"helicopter",job:"Police",image:"police/150jyzs22.png"},
 
-{name:"EMS Shinobi",id:"KillerShinobi",type:"Bike",job:"EMS",image:"ems/shinobi.png"},
+{name:"EMS Shinobi",id:"KillerShinobi",type:"Motorcycle",job:"EMS",image:"ems/shinobi.png"},
 
 {name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"}
  
