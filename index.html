@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vehicle Database | LemonTown Light RP</title>
+<meta name="description" content="LemonTown Light RP Vehicle Database">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 背景 -->
+<div class="background"></div>
+<div class="grid"></div>
+<!-- ヘッダー -->
+<header class="header">
+<div class="logo-area">
+            <div class="logo-mark">LT</div>
+
+            <div>
+                <div class="logo-title">LEMON TOWN</div>
+                <div class="logo-subtitle">LIGHT ROLEPLAY</div>
+            </div>
+        </div>
+
+        <div class="header-title">
+            <span>VEHICLE</span>
+            DATABASE
+        </div>
+
+    </header>
+
+
+    <!-- メイン -->
+    <main class="container">
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-label">
+                    <span class="status-dot"></span>
+                    VEHICLE DATABASE
+                </div>
+
+                <h1>
+                    VEHICLE<br>
+                    <span>DATABASE</span>
+                </h1>
+
+                <p>
+                    LemonTown Light RPに導入されている<br>
+                    車両情報を確認できます。
+                </p>
+
+            </div>
+
+            <div class="vehicle-count">
+                <span id="vehicleCount">0</span>
+                <small>VEHICLES</small>
+            </div>
+
+        </section>
+
+
+        <!-- 検索・フィルター -->
+        <section class="controls">
+
+            <!-- 検索 -->
+            <div class="search-box">
+
+                <span class="search-icon">⌕</span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="車名・Car IDを検索..."
+                    autocomplete="off"
+                >
+
+                <button id="clearSearch" class="clear-button">
+                    ×
+                </button>
+
+            </div>
+
+
+            <!-- 車種 -->
+            <div class="filter-group">
+
+                <div class="filter-title">
+                    VEHICLE TYPE
+                </div>
+
+                <div class="filter-buttons" id="typeFilters">
+
+                    <button class="filter-button active" data-type="all">
+                        ALL
+                    </button>
+
+                    <button class="filter-button" data-type="Car">
+                        CAR
+                    </button>
+
+                    <button class="filter-button" data-type="Motorcycle">
+                        BIKE
+                    </button>
+
+                    <button class="filter-button" data-type="Helicopter">
+                        HELI
+                    </button>
+
+                    <button class="filter-button" data-type="Boat">
+                        BOAT
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- 職業 -->
+            <div class="filter-group">
+
+                <div class="filter-title">
+                    JOB
+                </div>
+
+                <div class="filter-buttons" id="jobFilters">
+
+                    <button class="filter-button active" data-job="all">
+                        ALL
+                    </button>
+
+                    <button class="filter-button" data-job="Police">
+                        POLICE
+                    </button>
+
+                    <button class="filter-button" data-job="EMS">
+                        EMS
+                    </button>
+
+                    <button class="filter-button" data-job="Mechanic">
+                        MECHANIC
+                    </button>
+
+                    <button class="filter-button" data-job="Civilian">
+                        CIVILIAN
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 車両一覧 -->
+        <section class="vehicle-section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">DATABASE</span>
+                    <h2>VEHICLES</h2>
+                </div>
+
+                <div class="result-count">
+                    <span id="resultCount">0</span> RESULTS
+                </div>
+
+            </div>
+
+
+            <div
+                class="vehicle-grid"
+                id="vehicleGrid"
+            ></div>
+
+
+            <!-- 検索結果なし -->
+            <div
+                class="no-results"
+                id="noResults"
+            >
+
+                <div class="no-results-icon">
+                    ?
+                </div>
+
+                <h3>NO VEHICLES FOUND</h3>
+
+                <p>
+                    条件に一致する車両が見つかりませんでした。
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- コピー通知 -->
+    <div
+        class="copy-toast"
+        id="copyToast"
+    >
+
+        <div class="toast-icon">
+            ✓
+        </div>
+
+        <div>
+            <strong>CAR ID COPIED</strong>
+            <span id="copiedId"></span>
+        </div>
+
+    </div>
+
+
+    <footer class="footer">
+
+        <div>
+            © 2026 LEMON TOWN LIGHT RP
+        </div>
+
+        <div>
+            VEHICLE DATABASE
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
