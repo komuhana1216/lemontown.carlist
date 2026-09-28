@@ -19,7 +19,8 @@ const vehicles = [
 {name:"EMS Boat1",id:"KillerPredator",type:"Boat",job:"EMS",image:"ems/boat1.png"},
 {name:"EMS Maverick",id:"KillerMaverick",type:"Helicopter",job:"EMS",image:"ems/maverick.png"},
 
-{name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"}
+{name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"},
+{name:"IgnusCTX",id:"gstign1",type:"Car",job:"Civilian",image:"civilian/ignusctx.png"},
  
 ];
 
