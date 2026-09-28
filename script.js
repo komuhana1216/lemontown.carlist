@@ -21,6 +21,7 @@ const vehicles = [
 
 {name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"},
 {name:"IgnusCTX",id:"gstign1",type:"Car",job:"Civilian",image:"civilian/ignusctx.png"},
+{name:"ZentornoCTX",id:"gstzen1",type:"Car",job:"Civilian",image:"civilian/zentornoctx.png"},
  
 ];
 
