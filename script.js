@@ -27,7 +27,7 @@ const vehicles = [
 {name:"furia waid",id:"furiawb",type:"Car",job:"Civilian",image:"civilian/furiawaid.png"},
 {name:"Speed Express",id:"nspeedo",type:"Car",job:"Civilian",image:"civilian/speedex.jpg"},
 {name:"Schlagen STR",id:"schlagenstr",type:"Car",job:"Civilian",image:"civilian/str.png"},
-{name:"Dundreary Stretch",id:"stretch",type:"Car",job:"Civilian",image:"civilian/stretch.png"},
+{name:"Dundreary Stretch",id:"stretch",type:"Car",job:"Civilian",image:"civilian/stretch.jpg"},
 {name:"Itali RSX",id:"italirsx",type:"Car",job:"Civilian",image:"civilian/rsx.png"},
 {name:"Karin Kuruma_装甲車",id:"italirsx",type:"Car",job:"Civilian",image:"civilian/kuruma.png"},
 {name:"Nagasaki Outlaw",id:"outlaw",type:"Car",job:"Civilian",image:"civilian/nagasakioutlaw.png"},
