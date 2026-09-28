@@ -11,7 +11,10 @@ const vehicles = [
 {name:"PD jcon",id:"jcon",type:"helicopter",job:"Police",image:"police/jcon.png"},
 {name:"PD フロガー",id:"dlfroggerpd",type:"helicopter",job:"Police",image:"police/pdfroger.png"},
 {name:"PD 150JYZS22",id:"PD150JYZS22",type:"helicopter",job:"Police",image:"police/150jyzs22.png"},
-{name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"},
+
+{name:"EMS Shinobi",id:"KillerShinobi",type:"Bike",job:"Ems",image:"ems/shinobi.png"},
+
+{name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"}
  
 ];
 
