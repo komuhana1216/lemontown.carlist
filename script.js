@@ -10,7 +10,7 @@ id: "nkspeedzen1",
 type: "Car",
 job: "Police",
 image: "police/speedzen.png"
-},
+}
 
     
 ];
