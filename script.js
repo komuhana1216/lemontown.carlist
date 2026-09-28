@@ -5,11 +5,11 @@
 const vehicles = [
 
 {
-name: "Police Charger",
-id: "policecharger",
+name: "PD Speed",
+id: "nkspeedzen1",
 type: "Car",
 job: "Police",
-image: "vehicles/vehicle01.png"
+image: "police/speedzen.png"
 },
 
     
