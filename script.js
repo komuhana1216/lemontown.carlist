@@ -12,11 +12,12 @@ const vehicles = [
 {name:"PD フロガー",id:"dlfroggerpd",type:"Helicopter",job:"Police",image:"police/pdfroger.png"},
 {name:"PD 150JYZS22",id:"PD150JYZS22",type:"Helicopter",job:"Police",image:"police/150jyzs22.png"},
 
+{name:"EMS Buffalo",id:"KillerBuffalo",type:"Car",job:"EMS",image:"ems/killerbuffalo.png"},
 {name:"EMS Draugur",id:"KillerDraugur",type:"Car",job:"EMS",image:"ems/draugur.png"},
 {name:"EMS Outlaw",id:"KillerOutlaw",type:"Car",job:"EMS",image:"ems/outlaw.png"},
 {name:"EMS Shinobi",id:"KillerShinobi",type:"Motorcycle",job:"EMS",image:"ems/shinobi.png"},
 {name:"EMS Boat1",id:"KillerPredator",type:"Boat",job:"EMS",image:"ems/boat1.png"},
-{name:"EMS Maverick",id:"KillerMaverick",type:"Car",job:"EMS",image:"ems/maverick.png"},
+{name:"EMS Maverick",id:"KillerMaverick",type:"Helicopter",job:"EMS",image:"ems/maverick.png"},
 
 {name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"}
  
