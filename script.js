@@ -22,7 +22,21 @@ const vehicles = [
 {name:"BUS",id:"bus",type:"Car",job:"Civilian",image:"civilian/bus.png"},
 {name:"IgnusCTX",id:"gstign1",type:"Car",job:"Civilian",image:"civilian/ignusctx.png"},
 {name:"ZentornoCTX",id:"gstzen1",type:"Car",job:"Civilian",image:"civilian/zentornoctx.png"},
- 
+{name:"Grotti furia",id:"furia",type:"Car",job:"Civilian",image:"civilian/furia.png"},
+{name:"furia waid",id:"furiawb",type:"Car",job:"Civilian",image:"civilian/furiawaid.png"},
+{name:"Speed Express",id:"nspeedo",type:"Car",job:"Civilian",image:"civilian/speedex.png"},
+{name:"Schlagen STR",id:"schlagenstr",type:"Car",job:"Civilian",image:"civilian/str.png"},
+{name:"Zentorno-Custom",id:"zentornoc",type:"Car",job:"Civilian",image:"civilian/zentorno.png"},
+{name:"Dundreary Stretch",id:"stretch",type:"Car",job:"Civilian",image:"civilian/stretch.png"},
+{name:"Itali RSX",id:"italirsx",type:"Car",job:"Civilian",image:"civilian/rsx.png"},
+{name:"Karin Kuruma_装甲車",id:"italirsx",type:"Car",job:"Civilian",image:"civilian/rsx.png"},
+{name:"Nagasaki Outlaw",id:"outlaw",type:"Car",job:"Civilian",image:"civilian/nagasakioutlaw.png"},
+{name:"Nagasaki Shinobi",id:"shinobi",type:"Motorcycle",job:"Civilian",image:"civilian/shinobi.png"},
+{name:"Nagasaki Shotaro",id:"shotaro",type:"Motorcycle",job:"Civilian",image:"civilian/shotaro.png"},
+{name:"Shitzu Hakucho Drag",id:"hakucho2",type:"Motorcycle",job:"Civilian",image:"civilian/hakuchou.png"},
+{name:"Nagasaki Dinghy",id:"dinghy",type:"Boat",job:"Civilian",image:"civilian/nagasakiboat.png"},
+{name:"Nagasaki Dinghy",id:"dinghy",type:"Boat",job:"Civilian",image:"civilian/nagasakiboat.png"}
+
 ];
 
 /* ========================================
