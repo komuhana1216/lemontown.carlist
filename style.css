@@ -115,7 +115,7 @@ body {
     display: grid;
     place-items: center;
 
-    background: #d9ff00;
+    background: transparent;
 
     border-radius: 10px;
 
@@ -130,7 +130,7 @@ body {
 
     object-fit: contain;
 
-    padding: 5px;
+    padding: 0;
 
     transform: skew(8deg);
 }
