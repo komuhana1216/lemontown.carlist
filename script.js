@@ -34,7 +34,6 @@ const vehicles = [
 {name:"Nagasaki Shinobi",id:"shinobi",type:"Motorcycle",job:"Civilian",image:"civilian/shinobi.png"},
 {name:"Nagasaki Shotaro",id:"shotaro",type:"Motorcycle",job:"Civilian",image:"civilian/shotaro.png"},
 {name:"Shitzu Hakucho Drag",id:"hakucho2",type:"Motorcycle",job:"Civilian",image:"civilian/hakuchou.png"},
-{name:"Nagasaki Dinghy",id:"dinghy",type:"Boat",job:"Civilian",image:"civilian/nagasakiboat.png"},
 {name:"Nagasaki Dinghy",id:"dinghy",type:"Boat",job:"Civilian",image:"civilian/nagasakiboat.png"}
 
 ];
