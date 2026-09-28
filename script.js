@@ -4,86 +4,15 @@
 
 const vehicles = [
 
-    {
-        name: "Police Charger",
-        id: "policecharger",
-        type: "Car",
-        job: "Police",
-        image: "vehicles/vehicle01.png"
-    },
+{
+name: "Police Charger",
+id: "policecharger",
+type: "Car",
+job: "Police",
+image: "vehicles/vehicle01.png"
+},
 
-    {
-        name: "Police Explorer",
-        id: "policeexplorer",
-        type: "Car",
-        job: "Police",
-        image: "vehicles/vehicle02.png"
-    },
-
-    {
-        name: "Police Bike",
-        id: "policebike",
-        type: "Motorcycle",
-        job: "Police",
-        image: "vehicles/vehicle03.png"
-    },
-
-    {
-        name: "EMS Ambulance",
-        id: "emsambulance",
-        type: "Car",
-        job: "EMS",
-        image: "vehicles/vehicle04.png"
-    },
-
-    {
-        name: "EMS SUV",
-        id: "emssuv",
-        type: "Car",
-        job: "EMS",
-        image: "vehicles/vehicle05.png"
-    },
-
-    {
-        name: "Mechanic Tow Truck",
-        id: "mechanictow",
-        type: "Car",
-        job: "Mechanic",
-        image: "vehicles/vehicle06.png"
-    },
-
-    {
-        name: "Civilian Sultan",
-        id: "sultan",
-        type: "Car",
-        job: "Civilian",
-        image: "vehicles/vehicle07.png"
-    },
-
-    {
-        name: "Civilian Bike",
-        id: "civilianbike",
-        type: "Motorcycle",
-        job: "Civilian",
-        image: "vehicles/vehicle08.png"
-    },
-
-    {
-        name: "Police Maverick",
-        id: "polmav",
-        type: "Helicopter",
-        job: "Police",
-        image: "vehicles/vehicle09.png"
-    },
-
-    {
-        name: "Police Boat",
-        id: "policeboat",
-        type: "Boat",
-        job: "Police",
-        image: "vehicles/vehicle10.png"
-    }
-
+    
 ];
 
 
